@@ -1,0 +1,296 @@
+@font-face {
+  font-family: sans-serif;
+  src: url(font.ttf);
+}
+
+.bodyBack {
+  background-color: #f5bc51;
+}
+
+#name {
+  border: 1px solid black;
+  height: 45px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#passwordR {
+  border: 1px solid black;
+  height: 45px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#email {
+  border: 1px solid black;
+  height: 45px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#password {
+  border: 1px solid black;
+  height: 45px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#buttonLogin {
+  margin-right: 5%;
+  width: 20%;
+  background-color: rgb(185, 230, 93);
+  border: solid black 1px;
+  padding: 15px;
+  color: black;
+  font-size: 20px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+#buttonAccessWithoutAccount {
+  margin-right: 5%;
+  width: 20%;
+  background-color: rgb(185, 230, 93);
+  border: solid black 1px;
+  padding: 15px;
+  color: black;
+  font-size: 20px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+#buttonRegister {
+  width: 20%;
+  background-color: rgb(185, 230, 93);
+  border: solid black 1px;
+  padding: 15px;
+  color: black;
+  font-size: 20px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+#buttonRegisterCheck {
+  width: 20%;
+  background-color: rgb(185, 230, 93);
+  border: solid black 1px;
+  padding: 15px;
+  color: black;
+  font-size: 20px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+#buttonRegister2 {
+  width: 20%;
+  background-color: rgb(154, 167, 129);
+  border: solid black 1px;
+  padding: 15px;
+  color: lightgray;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+#buttonLogin:hover {
+  color: white;
+  background-color: green;
+  transition: 1s;
+}
+
+#buttonRegister:hover {
+  color: white;
+  background-color: green;
+  transition: 1s;
+}
+
+#buttonRegisterCheck:hover {
+  color: white;
+  background-color: green;
+  transition: 1s;
+}
+
+#buttonAccessWithoutAccount:hover {
+  color: white;
+  background-color: green;
+  transition: 1s;
+}
+
+.buttonGroup {
+  margin-top: 3%;
+}
+
+.containerFields {
+  display: inline-block;
+  width: 70%;
+  margin-left: 6%;
+}
+
+.userField {
+  width: 35%;
+  height: 45px;
+  display: inline-block;
+  text-align: left;
+}
+
+.passwordField {
+  display: inline-block;
+  text-align: left;
+  margin-right: 8%;
+}
+
+.emailField {
+  width: 35%;
+  height: 45px;
+  display: inline-block;
+  text-align: left;
+  margin-top: 5%;
+  margin-right: -2%;
+}
+
+.estiloNombreJugador {
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  position: absolute;
+  left: 39%;
+  top: 15%;
+  width: 40%;
+}
+
+#buttonSelectImg {
+  margin-right: 5%;
+  width: 8%;
+  background-color: rgba(00, 00, 00, 00);
+  border: none;
+  font-size: 20px;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  position: absolute;
+  left: 46%;
+  top: 44%;
+  cursor: pointer;
+}
+
+.imgCircle {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  border: 3px solid black;
+  margin-left: 12%;
+  margin-bottom: 1%;
+  cursor: pointer;
+}
+
+.imgCircle2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border: 3px solid black;
+  margin-left: 10%;
+  /* margin-bottom: 1%; */
+  cursor: pointer;
+}
+
+.imgCircleSet {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  border: 3px solid black;
+  margin-left: -15%;
+  margin-bottom: 1%;
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+
+.imgCircle:hover {
+  background-color: green;
+  transition: 0.5s;
+}
+
+.birthdayDate {
+  margin-left: 44.5%;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.buttonBack {
+  margin-right: 5%;
+  margin-left: 27%;
+  margin-top: 7%;
+}
+
+.salir {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  bottom: 0;
+  transform: translateX(-50%);
+  left: 50%;
+  margin-bottom: 5%;
+  width: 255px;
+  background-color: rgb(185, 230, 93);
+  border: solid black 1px;
+  font-size: 20px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.salir:hover {
+  background-color: green;
+  color: white;
+}
+
+.scsec::-webkit-scrollbar {
+  width: 7px;
+  background: transparent;
+}
+
+.scsec {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  display: inline-block;
+  width: 1230px;
+  top: 7%;
+  height: 525px;
+  overflow-y: scroll;
+  border-bottom: 1px solid #FF9800;
+}
+
+h4, h1 {
+  font-family: sans-serif;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .emailField {
+    width: 35%;
+    height: 45px;
+    display: inline-block;
+    text-align: inherit;
+    margin-top: 5%;
+    margin-left: -23%;
+}
+
+
+.passwordField {
+    display: inline-block;
+    text-align: inherit;
+    margin-top: 10%;
+    margin-left: -10%;
+}
+.buttonGroup {
+    display: grid;
+    grid-row-gap: 40px;
+    font-size: 40px;
+}
+
+#buttonLogin, #buttonRegister, #buttonAccessWithoutAccount{
+  width: 35%;
+}
+
+.containerFields{
+  display: grid;
+}
